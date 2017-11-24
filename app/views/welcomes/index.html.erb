@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="description"
+          content="Movies I've Seen is an app written for my mom. She will be able to keep track of the movies she's seen with this app!">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <%= stylesheet_link_tag "application" %>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Josefin+Sans|Arvo" rel="stylesheet">
+    <title>Movies I've Seen</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movies I've Seen</h1>
+
+      <div class="experience">
+        <div class="visible">
+          <p>I am a</p>
+          <div class="rotating">
+            <ul>
+              <li>mentor</li>
+              <li>developer</li>
+              <li>musician</li>
+              <li>learner</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="https://github.com/Madelene" target="_blank">GitHub</a></li>
+          <li><a href="https://maddiecampos.wordpress.com/" target="_blank">Blog</a></li>
+          <li><a href="https://twitter.com/maddiecampos3" target="_blank">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/madelenecampos/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+   <%= javascript_include_tag "application" %>
+  </body>
+</html>
