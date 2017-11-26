@@ -13,12 +13,19 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <%= stylesheet_link_tag "application" %>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Josefin+Sans|Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <title>Movies I've Seen</title>
   </head>
   <body>
     <div class="container">
       <h1>Movies I've Seen</h1>
+      <div>
+        <button id="button1"><a class="waves-effect waves-light btn">View movies I've seen</a></button>
+        <button id="button2"><a class="waves-effect waves-light btn">Add a movie to my list</a></button>
+      </div>
     </div>
    <%= javascript_include_tag "application" %>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </body>
 </html>

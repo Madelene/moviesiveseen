@@ -1,3 +1,23 @@
+#button1 {
+  border-radius: 20px;
+  float: left;
+  background-color: #ccccff;
+}
+
+#button2 {
+  border-radius: 20px;
+  float: right;
+  background-color: #ccccff;
+}
+
+.waves-effect {
+  border-radius: 20px !important;
+}
+
+.btn {
+  background-color: #644c84 !important;
+}
+
 .sampleContainer {
   margin-top: 250px
 }
