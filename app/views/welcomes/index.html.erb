@@ -21,8 +21,14 @@
     <div class="container">
       <h1>Movies I've Seen</h1>
       <div>
-        <button id="button1"><a class="waves-effect waves-light btn">View movies I've seen</a></button>
-        <button id="button2"><a class="waves-effect waves-light btn">Add a movie to my list</a></button>
+        <button id="button1"><a class="waves-effect waves-light btn">
+          <%= button_to "View movies I've seen", movies_path, method: :get %>
+            View movies I've seen</a>
+        </button>
+        <button id="button2"><a class="waves-effect waves-light btn">
+          <%= button_to "Add a movie to my list", new_movie_url, method: :get %>
+            Add a movie to my list</a>
+        </button>
       </div>
     </div>
    <%= javascript_include_tag "application" %>
