@@ -1,0 +1,16 @@
+defaults: &defaults
+
+  OMDB_API_KEY: 'c11350e8'
+
+local:
+  <<: *defaults
+  ROOT_URL: 'http://localhost:3000/'
+
+development:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+test:
+  <<: *defaults
