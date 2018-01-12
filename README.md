@@ -1,24 +1,15 @@
-# README
+# MOVIESIVESEEN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My mom likes to watch movies. A LOT of movies. She also likes to keep track of the movies she's seen, so she doesn't accidentally watch the same thing twice. I thought to build her a Rails app, from scratch, allowing her to keep track of the movies she's seen.
 
-Things you may want to cover:
+Some info on how this app is built:
 
-* Ruby version
+* Ruby version 2.4.2
 
-* System dependencies
+* Rails 5.1.4
 
-* Configuration
+* PostGreSQL for production (Heroku), sqlite3 for development
 
-* Database creation
+* Run locally using `rails s` or view here: https://moviesiveseen.herokuapp.com/
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
