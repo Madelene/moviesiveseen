@@ -242,7 +242,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   decent_exposure
-  devise (~> 4.4)
+  devise
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   materialize-sass (~> 0.100.2)
