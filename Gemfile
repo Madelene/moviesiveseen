@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
+gem 'paperclip', '~> 5.1'
 
 group :production do
   gem 'rails_12factor'
