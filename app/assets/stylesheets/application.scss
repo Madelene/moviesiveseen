@@ -13,6 +13,7 @@
  *= require_tree .
  *= require welcome
  *= require_self
- @import "materialize";
-
  */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
