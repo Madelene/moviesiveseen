@@ -25,6 +25,10 @@ body {
   font-family: 'didot';
 }
 
+.buttons {
+  display: inline-flex;
+}
+
 .btn {
   background-color: #644c84 !important;
 }
