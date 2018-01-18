@@ -10,3 +10,26 @@
   border-color: #000 !important;
 }
 
+.nav {
+  margin: 30px;
+}
+
+.image {
+  padding: 2px;
+}
+
+#fixed {
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+#thumbnail {
+  border: 200px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
