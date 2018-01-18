@@ -8,11 +8,12 @@ body {
   border-radius: 20px;
   float: left;
   background-color: #ccccff;
+  overflow: hidden;
 }
 
 #button2 {
   border-radius: 20px;
-  float: right;
+  overflow: hidden;
   background-color: #ccccff;
 }
 
@@ -27,6 +28,7 @@ body {
 
 .buttons {
   display: inline-flex;
+  overflow: hidden;
 }
 
 .btn {
@@ -99,7 +101,8 @@ nav li {
   justify-content: center;
   height: 100%;
   background-attachment: fixed;
-  background-position: center
+  background-position: center;
+  padding-left: 0;
 }
 
 .experience {
@@ -208,3 +211,12 @@ nav li {
     height: auto
   }
 }
+
+@media only screen and (max-width: 500px) {
+  #button1 {
+    float: none;
+    margin: 10px 0 10px 0;
+    width:auto;
+  }
+}
+
