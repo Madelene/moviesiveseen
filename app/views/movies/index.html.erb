@@ -1,17 +1,18 @@
 <p id="notice"><%= notice %></p>
-<%= render 'header' %>
-
-<div class="row">
-  <% @movies.each do | movie | %>
-    <div class="col-sm-6 col-md-3">
-      <div class="thumbnail">
-        <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
-      </div>
-    </div>
-  <% end %>
+<div class="nav">
+  <%= render 'header' %>
 </div>
 
 
+  <div id="fixed">
+    <% @movies.each do | movie | %>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail" id="thumbnail">
+          <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 
 
 
