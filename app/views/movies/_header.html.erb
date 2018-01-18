@@ -1,4 +1,4 @@
-<nav class="navbar" role="navigation">
+<nav class="navbar-fixed-top responsive" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="bs-example-navbar-collapse-1">
@@ -10,7 +10,7 @@
     <%= link_to "Movies I've Seen", root_path, class: "navbar-brand" %>
   </div>
 
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <div class="collapse navbar-collapse responsive" id="bs-example-navbar-collapse-1">
     <% if user_signed_in? %>
       <li><%= link_to "Add a New Movie", new_movie_path, class: "navbar-brand" %></li>
        <li><%= link_to "Your Account", edit_user_registration_path, class: "navbar-brand" %></li>
